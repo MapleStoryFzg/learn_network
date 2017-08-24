@@ -3,7 +3,7 @@ import java.net.InetAddress;
 /**
  * Created by minlc on 2017/8/10.
  */
-public class EXample01 {
+public class Example01 {
     public static void main(String[] args) throws Exception {
         InetAddress localAddress = InetAddress.getLocalHost();
         InetAddress remoteAddress = InetAddress.getByName("www.itcast.com");
